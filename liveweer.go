@@ -11,12 +11,56 @@ import (
 // Weer struct
 type Weer struct {
 	Liveweer []struct {
-		Plaats string
-		Temp   string
-		Gtemp  string
-		Samenv string
-		Lv     string
-	}
+		Plaats     string `json:"plaats"`
+		Temp       string `json:"temp"`
+		Gtemp      string `json:"gtemp"`
+		Samenv     string `json:"samenv"`
+		Lv         string `json:"lv"`
+		Windr      string `json:"windr"`
+		Windms     string `json:"windms"`
+		Winds      string `json:"winds"`
+		Windk      string `json:"windk"`
+		Windkmh    string `json:"windkmh"`
+		Luchtd     string `json:"luchtd"`
+		Ldmmhg     string `json:"ldmmhg"`
+		Dauwp      string `json:"dauwp"`
+		Zicht      string `json:"zicht"`
+		Verw       string `json:"verw"`
+		Sup        string `json:"sup"`
+		Sunder     string `json:"sunder"`
+		Image      string `json:"image"`
+		D0Weer     string `json:"d0weer"`
+		D0Tmax     string `json:"d0tmax"`
+		D0Tmin     string `json:"d0tmin"`
+		D0Windk    string `json:"d0windk"`
+		D0Windknp  string `json:"d0windknp"`
+		D0Windms   string `json:"d0windms"`
+		D0Windkmh  string `json:"d0windkmh"`
+		D0Windr    string `json:"d0windr"`
+		D0Neerslag string `json:"d0neerslag"`
+		D0Zon      string `json:"d0zon"`
+		D1Weer     string `json:"d1weer"`
+		D1Tmax     string `json:"d1tmax"`
+		D1Tmin     string `json:"d1tmin"`
+		D1Windk    string `json:"d1windk"`
+		D1Windknp  string `json:"d1windknp"`
+		D1Windms   string `json:"d1windms"`
+		D1Windkmh  string `json:"d1windkmh"`
+		D1Windr    string `json:"d1windr"`
+		D1Neerslag string `json:"d1neerslag"`
+		D1Zon      string `json:"d1zon"`
+		D2Weer     string `json:"d2weer"`
+		D2Tmax     string `json:"d2tmax"`
+		D2Tmin     string `json:"d2tmin"`
+		D2Windk    string `json:"d2windk"`
+		D2Windknp  string `json:"d2windknp"`
+		D2Windms   string `json:"d2windms"`
+		D2Windkmh  string `json:"d2windkmh"`
+		D2Windr    string `json:"d2windr"`
+		D2Neerslag string `json:"d2neerslag"`
+		D2Zon      string `json:"d2zon"`
+		Alarm      string `json:"alarm"`
+	} `json:"liveweer"`
 }
 
 // temp Method of struct weer
