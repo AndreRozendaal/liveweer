@@ -1,7 +1,7 @@
 
 # Golang package for liveweer.nl
 
-This is a Golang package for getting temperture and/or air humadity from liveweer.nl
+This is a Golang package for getting temperature and/or air humadity from liveweer.nl
 
 ## how to use
 ```
